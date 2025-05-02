@@ -6,6 +6,18 @@ I propose a novel object detection pipeline based on the SAHI (Slicing Aided Hyp
 
 ---
 
+<p align="center">
+  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/blob/main/outputs/basic_sahi/frame_241_prediction_visual.png?raw=true" alt="Basic SAHI" width="45%"/>
+  &nbsp;&nbsp;
+  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/blob/main/outputs/roi_based_sahi/frame_241_prediction_visual.png?raw=true" alt="ROI-Based SAHI" width="45%"/>
+</p>
+
+<p align="center">
+  <b>Left: SAHI result | Right: ROI-Based SAHI result</b>
+</p>
+
+---
+
 ## Features
 
 - ROI mask-based slicing inference for efficient object detection
