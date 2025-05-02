@@ -6,13 +6,13 @@ I propose a novel object detection pipeline based on the SAHI (Slicing Aided Hyp
 
 ---
 
-### 📊 ROI-Based SAHI: Performance Summary
+### 📊 ROI-Based SAHI vs. SAHI: Performance Summary
 
-The chart below illustrates the performance of the proposed ROI-based SAHI method.  
-It significantly reduces unnecessary detections (4,743) while maintaining road coverage, with only minor loss (286).
+The chart below illustrates the performance comparison between the proposed ROI-based SAHI method and the basic SAHI approach.  
+The ROI-based method significantly reduces unnecessary detections (4,743) while maintaining road coverage, with only minor detection loss (286).
 
 <p align="center">
-  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/raw/main/outputs/roi_vs_sahi_summary.png" alt="ROI-Based SAHI Summary" width="90%"/>
+  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/blob/main/outputs/compare_result/roi_performance_dashboard.png" alt="ROI-Based SAHI Summary" width="90%"/>
 </p>
 
 ---
