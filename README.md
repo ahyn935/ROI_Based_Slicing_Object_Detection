@@ -1,7 +1,6 @@
 # ROI_Based_Slicing_Object_Detection
 
 **"Efficient Object Recognition Technique Using ROI-Based Slicing Inference"**
-ROI 기반 슬라이싱 추론을 활용한 효율적인 객체 인식 기법
 
 I propose a novel object detection pipeline based on the SAHI (Slicing Aided Hyper Inference) framework, which leverages ROI (Region of Interest) masks to perform efficient and accurate inference using a slicing-based approach. By focusing computation on relevant regions through ROI-guided slicing, my method significantly reduces unnecessary detections and improves both speed and accuracy, especially in resource-constrained or real-time environments. This approach extends the standard SAHI pipeline by integrating ROI masks, enabling more selective and efficient object detection. 
 
