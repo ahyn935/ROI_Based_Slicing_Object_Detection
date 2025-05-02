@@ -6,14 +6,24 @@ I propose a novel object detection pipeline based on the SAHI (Slicing Aided Hyp
 
 ---
 
-<p align="center">
-  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/blob/main/outputs/basic_sahi/frame_241_prediction_visual.png?raw=true" alt="Basic SAHI" width="45%"/>
-  &nbsp;&nbsp;
-  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/blob/main/outputs/roi_based_sahi/frame_241_prediction_visual.png?raw=true" alt="ROI-Based SAHI" width="45%"/>
-</p>
+### 📊 ROI-Based SAHI: Performance Summary
+
+The chart below illustrates the performance of the proposed ROI-based SAHI method.  
+It significantly reduces unnecessary detections (4,743) while maintaining road coverage, with only minor loss (286).
 
 <p align="center">
-  <b>Left: SAHI result    |    Right: ROI-Based SAHI result</b>
+  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/raw/main/outputs/roi_vs_sahi_summary.png" alt="ROI-Based SAHI Summary" width="90%"/>
+</p>
+
+---
+
+### 🎯 Detection Result using ROI-Based SAHI
+
+The following image demonstrates a real detection result using ROI-based slicing.  
+It focuses on the relevant region of interest while effectively filtering out unnecessary detections.
+
+<p align="center">
+  <img src="https://github.com/ahyn935/ROI_Based_Slicing_Object_Detection/raw/main/outputs/roi_based_sahi/frame_241_prediction_visual.png" alt="ROI-Based SAHI Output" width="80%"/>
 </p>
 
 ---
