@@ -13,7 +13,7 @@ I propose a novel object detection pipeline based on the SAHI (Slicing Aided Hyp
 </p>
 
 <p align="center">
-  <b>Left: SAHI result | Right: ROI-Based SAHI result</b>
+  <b>Left: SAHI result    |    Right: ROI-Based SAHI result</b>
 </p>
 
 ---
